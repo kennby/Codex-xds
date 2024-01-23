@@ -25,33 +25,33 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭───── • ◆ • ─────┅┅┄┄*
         *𝐑𝐀𝐍𝐃𝐎𝐌*
    
-  ▸👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
-  ▸👾 _${usedPrefix}cristianoronaldo_
-  ▸👾 _${usedPrefix}messi_
-  ▸👾 _${usedPrefix}cat_
-  ▸👾 _${usedPrefix}dog_
-  ▸👾 _${usedPrefix}meme_
-  ▸👾 _${usedPrefix}itzy_
-  ▸👾 _${usedPrefix}blackpink_
-  ▸👾 _${usedPrefix}navidad_
-  ▸👾 _${usedPrefix}wpmontaña_
-  ▸👾 _${usedPrefix}pubg_
-  ▸👾 _${usedPrefix}wpgaming_
-  ▸👾 _${usedPrefix}wpaesthetic_
-  ▸👾 _${usedPrefix}wpaesthetic2_
-  ▸👾 _${usedPrefix}wprandom_
-  ▸👾 _${usedPrefix}wallhp_
-  ▸👾 _${usedPrefix}wpvehiculo_
-  ▸👾 _${usedPrefix}wpmoto_
-  ▸👾 _${usedPrefix}coffee_
-  ▸👾 _${usedPrefix}pentol_
-  ▸👾 _${usedPrefix}caricatura_
-  ▸👾 _${usedPrefix}ciberespacio_
-  ▸👾 _${usedPrefix}technology_
-  ▸👾 _${usedPrefix}doraemon_
-  ▸👾 _${usedPrefix}hacker_
-  ▸👾 _${usedPrefix}planeta_
-  ▸👾 _${usedPrefix}randomprofile_
+  ▸👻 _${usedPrefix}kpop *<blackpink / exo / bts>*_
+  ▸👻 _${usedPrefix}cristianoronaldo_
+  ▸👻 _${usedPrefix}messi_
+  ▸👻 _${usedPrefix}cat_
+  ▸👻 _${usedPrefix}dog_
+  ▸👻 _${usedPrefix}meme_
+  ▸👻 _${usedPrefix}itzy_
+  ▸👻 _${usedPrefix}blackpink_
+  ▸👻 _${usedPrefix}navidad_
+  ▸👻 _${usedPrefix}wpmontaña_
+  ▸👻 _${usedPrefix}pubg_
+  ▸👻 _${usedPrefix}wpgaming_
+  ▸👻 _${usedPrefix}wpaesthetic_
+  ▸👻 _${usedPrefix}wpaesthetic2_
+  ▸👻 _${usedPrefix}wprandom_
+  ▸👻 _${usedPrefix}wallhp_
+  ▸👻 _${usedPrefix}wpvehiculo_
+  ▸👻 _${usedPrefix}wpmoto_
+  ▸👻 _${usedPrefix}coffee_
+  ▸👻 _${usedPrefix}pentol_
+  ▸👻 _${usedPrefix}caricatura_
+  ▸👻 _${usedPrefix}ciberespacio_
+  ▸👻 _${usedPrefix}technology_
+  ▸👻 _${usedPrefix}doraemon_
+  ▸👻 _${usedPrefix}hacker_
+  ▸👻 _${usedPrefix}planeta_
+  ▸👻 _${usedPrefix}randomprofile_
 *╰───── • ◆ • ─────┅┅┄┄*
 
 *╭───── • ◆ • ─────┅┅┄┄*
@@ -84,4 +84,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-      }
+}

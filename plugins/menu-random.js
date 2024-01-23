@@ -23,7 +23,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
 *╭───── • ◆ • ─────┅┅┄┄*
-        *ʀᴀɴᴅᴏᴍ*
+        *𝐑𝐀𝐍𝐃𝐎𝐌*
    
   ▸👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
   ▸👾 _${usedPrefix}cristianoronaldo_
@@ -61,7 +61,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▸📳 _${usedPrefix}next_
   ▸📳 _${usedPrefix}leave_
 *╰───── • ◆ • ─────┅┅┄┄*
-*_BY: 𝗢𝗡𝗬𝗫_*`.trim();
+*_BY: 𝗜'𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧_*`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};

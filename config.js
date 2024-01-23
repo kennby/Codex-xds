@@ -20,12 +20,12 @@ global.owner = [
 global.suittag = [];
 global.prems = [];
 
-global.packname = '𝗢𝗡𝗬𝗫';
-global.author = '𝗢𝗡𝗬𝗫';
-global.wm = '𝗢𝗡𝗬𝗫';
-global.titulowm = '𝗢𝗡𝗬𝗫';
+global.packname = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
+global.author = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
+global.wm = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
+global.titulowm = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
 global.titulowm2 = `𝗢𝗡𝗬𝗫`
-global.igfg = '𝗢𝗡𝗬𝗫';
+global.igfg = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
 global.wait = '*pensando ...*';
 
 /*global.imgr = [imagen1 = fs.readFileSync('./media/img/Menu2.jpg'),
@@ -49,14 +49,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝗢𝗡𝗬𝗫`;
-global.gt = '𝗢𝗡𝗬𝗫';
-global.mysticbot = '𝗢𝗡𝗬𝗫';
-global.md = 'https://github.com';
-global.mysticbot = 'https://github.com';
-global.waitt = '*⚠️ 𝑐𝑎𝑟𝑔𝑎𝑛𝑑𝑜 ...*';
-global.waittt = '*⚠️ 𝑐𝑎𝑟𝑔𝑎𝑛𝑑𝑜 ...*';
-global.waitttt = '*⚠️ 𝑐𝑎𝑟𝑔𝑎𝑛𝑑𝑜 ...*';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧`;
+global.gt = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
+global.mysticbot = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
+global.md = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v';
+global.mysticbot = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v';
+global.waitt = '* pensando ...*';
+global.waittt = '* pensando ...*';
+global.waitttt = '* pensando ...*';
 global.nomorown = '51902247905';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';

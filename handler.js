@@ -1083,7 +1083,7 @@ export async function handler(chatUpdate) {
           /* for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
             const data = (await conn.onWhatsApp(jid))[0] || {};
             if (data.exists) {
-              await m.reply(`*[ ⚠️ sᴇ ᴀʜ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ ᴜɴ ᴄᴏᴍᴀɴᴅᴏ ᴄᴏɴ ғᴀʟʟᴀs  ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*⚠️ ʀᴇᴘᴏʀᴛᴇ ᴀ ғᴀʟʟᴀ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #ʀᴇᴘᴏʀᴛ*`.trim(), data.jid);
+              await m.reply(`*[ ✨ sᴇ ᴀʜ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ ᴜɴ ᴄᴏᴍᴀɴᴅᴏ ᴄᴏɴ ғᴀʟʟᴀs  ✨ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*✨ ʀᴇᴘᴏʀᴛᴇ ᴀ ғᴀʟʟᴀ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #ʀᴇᴘᴏʀᴛ*`.trim(), data.jid);
             }
           }*/
           const md5c = fs.readFileSync('./plugins/' + m.plugin);
@@ -1180,7 +1180,7 @@ export async function handler(chatUpdate) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
 ╔═════════════════════╗
- ❰ ⚠️ ❱ *¡USUARIO BANEADO!* ❰ ⚠️ ❱
+ ❰ ✨ ❱ *¡USUARIO BANEADO!* ❰ ✨ ❱
 —◉ *Aviso ${messageNumber}/3 (Total: 3)*
 —◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
 —◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Bot para apelar la suspensión.*
@@ -1317,7 +1317,7 @@ const messageText = `
               /* for (const [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
                 const data = (await conn.onWhatsApp(jid))[0] || {};
                 if (data.exists) {
-                  await m.reply(`*[ ⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${m.plugin}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid);
+                  await m.reply(`*[ ✨ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ✨ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${m.plugin}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*✨ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid);
                 }
               }*/
               const md5c = fs.readFileSync('./plugins/' + m.plugin);
@@ -1444,7 +1444,7 @@ export async function participantsUpdate({id, participants, action}) {
               const responseb = await m.conn.groupParticipantsUpdate(id, [user], 'remove');
               if (responseb[0].status === '404') return;
               const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-              await m.conn.sendMessage(id, {text: `*⚠️ @${user.split('@')[0]} ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ ɴᴏ sᴇ ᴘᴇʀᴍɪᴛᴇɴ ɴᴜᴍᴇʀᴏs ᴀʀᴀʙᴇs ᴏ ʀᴀʀᴏs, ᴘᴏʀ ʟᴏ ϙᴜᴇ sᴇ ᴛᴇ sᴀᴄᴀʀᴀ ᴅᴇʟ ɢʀᴜᴘᴏ*`, mentions: [user]}, {quoted: fkontak2});
+              await m.conn.sendMessage(id, {text: `*✨ @${user.split('@')[0]} ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ ɴᴏ sᴇ ᴘᴇʀᴍɪᴛᴇɴ ɴᴜᴍᴇʀᴏs ᴀʀᴀʙᴇs ᴏ ʀᴀʀᴏs, ᴘᴏʀ ʟᴏ ϙᴜᴇ sᴇ ᴛᴇ sᴀᴄᴀʀᴀ ᴅᴇʟ ɢʀᴜᴘᴏ*`, mentions: [user]}, {quoted: fkontak2});
               return;
             }
             await m.conn.sendFile(id, apii.data, 'pp.jpg', text, null, false, {mentions: [user]});
@@ -1503,7 +1503,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;♰⍣𝑪𝒓𝒊𝒘𝒊𝒍𝒐𝒑࿐⛦;;;\nFN:♰⍣𝑪𝒓𝒊𝒘𝒊𝒍𝒐𝒑࿐⛦\nORG:♰⍣𝑪𝒓𝒊𝒘𝒊𝒍𝒐𝒑࿐⛦\nTITLE:\nitem1.TEL;waid=573244488043:+57 324 4488 043 5479\nitem1.X-ABLabel:♰⍣𝑪𝒓𝒊𝒘𝒊𝒍𝒐𝒑࿐⛦\nX-WA-BIZ-DESCRIPTION:⚠️ ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:♰⍣𝑪𝒓𝒊𝒘𝒊𝒍𝒐𝒑࿐⛦\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧;;;\nFN:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nORG:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nTITLE:\nitem1.TEL;waid=51902247905:+51 902 247 905\nitem1.X-ABLabel:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nX-WA-BIZ-DESCRIPTION:ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '♰⍣𝑪𝒓𝒊𝒘𝒊𝒍𝒐𝒑࿐⛦', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
@@ -1542,19 +1542,19 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ⚠️ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
-    owner: '*[ ⚠️ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
-    mods: '*[ ⚠️ ] Este comando solo puede ser utilizado por moderadores y el/la propietario(a) (owner) del Bot.*',
-    premium: '*[ ⚠️ ] Este comando solo puede ser utilizado por usarios premium y el/la propietario(a) (owner) del Bot.*',
-    group: '*[ ⚠️ ] Este comando solo puede ser utilizado en grupos.*',
-    private: '*[ ⚠️ ] Este comando solo puede ser utilizado en el chat privado del Bot.*',
-    admin: '*[ ⚠️ ] Este comando solo puede ser usado por admins del grupo.*',
-    botAdmin: '*[ ⚠️ ] Para poder usar este comando es necesario que yo sea admin.*',
+    rowner: '*[ ✨ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
+    owner: '*[ ✨ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
+    mods: '*[ ✨ ] Este comando solo puede ser utilizado por moderadores y el/la propietario(a) (owner) del Bot.*',
+    premium: '*[ ✨ ] Este comando solo puede ser utilizado por usarios premium y el/la propietario(a) (owner) del Bot.*',
+    group: '*[ ✨ ] Este comando solo puede ser utilizado en grupos.*',
+    private: '*[ ✨ ] Este comando solo puede ser utilizado en el chat privado del Bot.*',
+    admin: '*[ ✨ ] Este comando solo puede ser usado por admins del grupo.*',
+    botAdmin: '*[ ✨ ] Para poder usar este comando es necesario que yo sea admin.*',
     unreg: '*[ 🛑 Hey!! Alto, no estas registrado 🛑 ]*\n\n*—◉ Para poder usar este comando debes registrarte, usa el comando:*\n*➣ #verificar nombre.edad*',
-    restrict: '*[ ⚠️ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del Bot.*',
+    restrict: '*[ ✨ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del Bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: 'atencion', body: '𝗢𝗡𝗬𝗫', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: 'atencion', body: '𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 

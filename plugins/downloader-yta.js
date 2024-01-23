@@ -5,7 +5,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios'
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 const handler = async (m, {text, conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw '*⚠️ Uso incorrecto del comando, ingrese un enlace / link de YouTube.*';  
+  if (!args[0]) throw '* Uso incorrecto del comando, ingrese un enlace / link de YouTube.*';  
   let enviando;
   if (enviando) return  
       enviando = true      
@@ -21,17 +21,17 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
           if (index < matchingItem.urls.length) {
             youtubeLink = matchingItem.urls[index];
           } else {
-            throw `*⚠️ No se encontro un enlace para ese numero, por favor ingrese un numero entre el 1 y el ${matchingItem.urls.length}*`;
+            throw `* No se encontro un enlace para ese numero, por favor ingrese un numero entre el 1 y el ${matchingItem.urls.length}*`;
           }
         } else {
-          throw `*⚠️ Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+          throw `* Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
         }
       } else {
-        throw `*⚠️ Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+        throw `* Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
       }
     }
   }
-  const { key } = await conn.sendMessage(m.chat, {text: `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*\n\n*◉ Sɪ Sᴜ ᴀᴜᴅɪᴏ ɴᴏ ᴇs ᴇɴᴠɪᴀᴅᴏ, ᴘʀᴜᴇʙᴇ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`}, {quoted: m});
+  const { key } = await conn.sendMessage(m.chat, {text: `*_Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ_*\n\n*♥︎‿♥︎*`}, {quoted: m});
   try {
     const formats = await bestFormat(youtubeLink, 'audio');
     const dl_url = await getUrlDl(formats.url);
@@ -79,7 +79,7 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
         await conn.sendMessage(m.chat, {text: '*[ ✔ ] Audio descargado exitosamente.*', edit: key}, {quoted: m});
       } catch {
         await conn.sendMessage(m.chat, {text: `*[ ❌ ] El audio no pudo ser descargado ni enviado, vuelva a intentarlo.*`, edit: key}, {quoted: m});
-        throw '*⚠️ Error, no fue posible descargar el audio.*';
+        throw '* Error, no fue posible descargar el audio.*';
       }
     }
   }

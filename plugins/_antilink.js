@@ -23,7 +23,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('*⚠️ ᴇʟ ᴏᴡɴᴇʀ ɴᴏ ᴛɪᴇɴᴇ ʜᴀʙɪʟɪᴛᴀᴅᴀ ʟᴀs ʀᴇsᴛʀɪᴄᴄɪᴏɴᴇs, ᴄᴏɴᴛᴀᴄᴛᴇ ᴄᴏɴ ᴇʟ *wa.me/573244488043* ᴘᴀʀᴀ ǫᴜᴇ ʟᴏ ʜᴀʙɪʟɪᴛᴇ...*');
+    } else if (!bot.restrict) return m.reply('*⚠️ ᴇʟ ᴏᴡɴᴇʀ ɴᴏ ᴛɪᴇɴᴇ ʜᴀʙɪʟɪᴛᴀᴅᴀ ʟᴀs ʀᴇsᴛʀɪᴄᴄɪᴏɴᴇs, ᴄᴏɴᴛᴀᴄᴛᴇ ᴄᴏɴ ᴇʟ *wa.me/51902247905* ᴘᴀʀᴀ ǫᴜᴇ ʟᴏ ʜᴀʙɪʟɪᴛᴇ...*');
   }
   return !0;
-}
+                                             }

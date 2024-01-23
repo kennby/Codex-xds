@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-      m.react('✋')
+      m.react('🙊')
     const pp = imagen1;
     const d = new Date(new Date + 3600000);
     const locale = 'es';
@@ -27,8 +27,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   ╰━──╮• *ɪɴғᴏ ᴜsᴜᴀʀɪᴏ* •╭──━╯
    
-             *🎮 Nivel:* ${level}
-             *🧰 Experiencia:* ${exp}
+             *Nivel:* ${level}
+             *Experiencia:* ${exp}
       ⇙⇙⇙⇙
 ${readMore}
 *╭───── • ◆ • ─────┅┅┄┄*
@@ -39,7 +39,7 @@ ${readMore}
 *╰───── • ◆ • ─────┅┅┄┄*
 
 *╭───── • ◆ • ─────┅┅┄┄*
-   🍁ᴅɪʀᴇᴄᴛᴏʀɪᴏ ᴅᴇ ғᴜɴᴄɪᴏɴᴇs
+   ᴅɪʀᴇᴄᴛᴏʀɪᴏ ᴅᴇ ғᴜɴᴄɪᴏɴᴇs
 *╰───── • ◆ • ─────┅┅┄┄*
 
 *╭───── • ◆ • ─────┅┅┄┄*
@@ -56,7 +56,7 @@ ${readMore}
   ∙ Herramientas ◃──▹ menu11
   ∙ Economía ◃─────▹ menu12
 *╰───── • ◆ • ─────┅┅┄┄*
-*_BY: 𝗢𝗡𝗬𝗫_*`.trim();
+*_BY: 𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧_*`.trim();
 
     if (m.isGroup) {
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net',};
@@ -79,4 +79,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-      }
+               }

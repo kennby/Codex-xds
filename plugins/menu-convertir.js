@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
-      m.react('🔀')
+      m.react('🙊')
    const pp = imagen3;
     // let vn = './media/menu.mp3'
     const d = new Date(new Date + 3600000);
@@ -25,16 +25,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭───── • ◆ • ─────┅┅┄┄*
    *ᴄᴏɴᴠᴇʀᴛɪʀ ᴍᴜʟᴛɪᴍᴇᴅɪᴀ*
    
-  ▸🧧 _${usedPrefix}toanime *<imagen>*_
-  ▸🧧 _${usedPrefix}togifaud *<video>*_
-  ▸🧧 _${usedPrefix}toimg *<sticker>*_
-  ▸🧧 _${usedPrefix}tomp3 *<video>*_
-  ▸🧧 _${usedPrefix}tomp3 *<nota de voz>*_
-  ▸🧧 _${usedPrefix}toptt *<video / audio>*_
-  ▸🧧 _${usedPrefix}tovideo *<sticker>*_
-  ▸🧧 _${usedPrefix}tourl *<video / imagen / audio>*_
-  ▸🧧 _${usedPrefix}tts *<idioma> <texto>*_
-  ▸🧧 _${usedPrefix}tts *<efecto> <texto>*_
+  ▸🙇 _${usedPrefix}toanime *<imagen>*_
+  ▸🙇 _${usedPrefix}togifaud *<video>*_
+  ▸🙇 _${usedPrefix}toimg *<sticker>*_
+  ▸🙇 _${usedPrefix}tomp3 *<video>*_
+  ▸🙇 _${usedPrefix}tomp3 *<nota de voz>*_
+  ▸🙇 _${usedPrefix}toptt *<video / audio>*_
+  ▸🙇 _${usedPrefix}tovideo *<sticker>*_
+  ▸🙇 _${usedPrefix}tourl *<video / imagen / audio>*_
+  ▸🙇 _${usedPrefix}tts *<idioma> <texto>*_
+  ▸🙇 _${usedPrefix}tts *<efecto> <texto>*_
 *╰───── • ◆ • ─────┅┅┄┄*
 
 *╭───── • ◆ • ─────┅┅┄┄*
@@ -65,32 +65,32 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭───── • ◆ • ─────┅┅┄┄*
   *ᴄʀᴇᴀᴄɪᴏɴ ᴅᴇ sᴛɪᴄᴋᴇʀs*
    
-  ▸🃏 _${usedPrefix}sticker *<responder a imagen o video>*_
-  ▸🃏 _${usedPrefix}sticker *<enlace / link / url>*_
-  ▸🃏 _${usedPrefix}sticker2 *<responder a imagen o video>*_
-  ▸🃏 _${usedPrefix}sticker2 *<enlace / link / url>*_
-  ▸🃏 _${usedPrefix}s *<responder a imagen o video>*_
-  ▸🃏 _${usedPrefix}s *<enlace / link / url>*_
-  ▸🃏 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
-  ▸🃏 _${usedPrefix}scircle *<imagen>*_
-  ▸🃏 _${usedPrefix}sremovebg *<imagen>*_
-  ▸🃏 _${usedPrefix}semoji *<tipo> <emoji>*_
-  ▸🃏 _${usedPrefix}qc *<texto>*_
-  ▸🃏 _${usedPrefix}attp *<texto>*_
-  ▸🃏 _${usedPrefix}attp2 *<texto>*_
-  ▸🃏 _${usedPrefix}attp3 *<texto>*_
-  ▸🃏 _${usedPrefix}ttp *<texto>*_
-  ▸🃏 _${usedPrefix}ttp2 *<texto>*_
-  ▸🃏 _${usedPrefix}ttp3 *<texto>*_
-  ▸🃏 _${usedPrefix}ttp4 *<texto>*_
-  ▸🃏 _${usedPrefix}ttp5 *<texto>*_
-  ▸🃏 _${usedPrefix}pat *<@tag>*_
-  ▸🃏 _${usedPrefix}slap *<@tag>*_
-  ▸🃏 _${usedPrefix}kiss *<@tag>*_
-  ▸🃏 _${usedPrefix}dado_
-  ▸🃏 _${usedPrefix}wm *<packname> <author>*_
-  ▸🃏 _${usedPrefix}stickermarker *<efecto> <imagen>*_
-  ▸🃏 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
+  ▸💖 _${usedPrefix}sticker *<responder a imagen o video>*_
+  ▸💖 _${usedPrefix}sticker *<enlace / link / url>*_
+  ▸💖 _${usedPrefix}sticker2 *<responder a imagen o video>*_
+  ▸💖 _${usedPrefix}sticker2 *<enlace / link / url>*_
+  ▸💖 _${usedPrefix}s *<responder a imagen o video>*_
+  ▸💖 _${usedPrefix}s *<enlace / link / url>*_
+  ▸💖 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+  ▸💖 _${usedPrefix}scircle *<imagen>*_
+  ▸💖 _${usedPrefix}sremovebg *<imagen>*_
+  ▸💖 _${usedPrefix}semoji *<tipo> <emoji>*_
+  ▸💖 _${usedPrefix}qc *<texto>*_
+  ▸💖 _${usedPrefix}attp *<texto>*_
+  ▸💖 _${usedPrefix}attp2 *<texto>*_
+  ▸💖 _${usedPrefix}attp3 *<texto>*_
+  ▸💖 _${usedPrefix}ttp *<texto>*_
+  ▸💖 _${usedPrefix}ttp2 *<texto>*_
+  ▸💖 _${usedPrefix}ttp3 *<texto>*_
+  ▸💖 _${usedPrefix}ttp4 *<texto>*_
+  ▸💖 _${usedPrefix}ttp5 *<texto>*_
+  ▸💖 _${usedPrefix}pat *<@tag>*_
+  ▸💖 _${usedPrefix}slap *<@tag>*_
+  ▸💖 _${usedPrefix}kiss *<@tag>*_
+  ▸💖 _${usedPrefix}dado_
+  ▸💖 _${usedPrefix}wm *<packname> <author>*_
+  ▸💖 _${usedPrefix}stickermarker *<efecto> <imagen>*_
+  ▸💖 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
 *╰───── • ◆ • ─────┅┅┄┄*
 *_BY: 𝗢𝗡𝗬𝗫_*
 `.trim();

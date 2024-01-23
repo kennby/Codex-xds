@@ -8,9 +8,9 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
-    if (command === 'play3' || command == 'playdoc') {
+    if (command === 'play' || command == 'playdoc') {
       additionalText = 'audio 🔊';
-    } else if (command === 'play4' || command == 'playdoc2') {
+    } else if (command === 'play2' || command == 'playdoc2') {
       additionalText = 'video 🎥';
     }
     const texto1 = `*◉——⌈🔊 YOUTUBE DOC 🔊⌋——◉*\n
@@ -22,7 +22,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 🔸 🔗 *Link:* ${yt_play[0].url}\n
 🔸 *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
-    if (command == 'play3' || command == 'playdoc') {
+    if (command == 'play' || command == 'playdoc') {
       try {
         const q = '128kbps';
         const v = yt_play[0].url;
@@ -50,7 +50,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
         }
       }
     }
-    if (command == 'play4' || command == 'playdoc2') {
+    if (command == 'play2' || command == 'playdoc2') {
       try {
         const qu = '360';
         const q = qu + 'p';
@@ -85,7 +85,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 };
 handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
 handler.tags = ['downloader'];
-handler.command = /^(playdoc|playdoc2|play3|play4)$/i;
+handler.command = /^(playdoc|playdoc2|play|play2)$/i;
 export default handler;
 
 async function search(query, options = {}) {
@@ -196,4 +196,4 @@ async function ytPlayVid(query) {
       resolve(getVideo);
     }).catch(reject);
   });
-}
+      }

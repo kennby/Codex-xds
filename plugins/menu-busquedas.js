@@ -39,11 +39,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╰───── • ◆ • ─────┅┅┄┄*
 
 *╭───── • ◆ • ─────┅┅┄┄*
- *< ℝ𝔸ℕ𝔻-𝔸ℕ𝕀𝕄𝔼𝕊 />*
+ *ANIME*
    
 ▸🔸 _${usedPrefix}menuanimes_
 *╰───── • ◆ • ─────┅┅┄┄*
-*_BY: 𝗢𝗡𝗬𝗫_*
+*_BY: 𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧_*
 `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
@@ -67,4 +67,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-      }
+      } 

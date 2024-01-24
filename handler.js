@@ -1343,7 +1343,7 @@ const messageText = `
             }
           }
           if (m.limit) {
-            m.reply('*[ 💎 ] Se utilizarón ' + +m.limit + ' diamante(s) (limites).*');
+            m.reply('*[ ✨ ] Se utilizarón ' + +m.limit + ' diamante(s) (limites).*');
           }
         }
         break;
@@ -1503,7 +1503,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧;;;\nFN:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nORG:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nTITLE:\nitem1.TEL;waid=51902247905:+51 902 247 905\nitem1.X-ABLabel:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nX-WA-BIZ-DESCRIPTION:ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐜𝐨𝐝𝐞𝐱;;;\nFN:𝐜𝐨𝐝𝐞𝐱\nORG:𝐜𝐨𝐝𝐞𝐱\nTITLE:\nitem1.TEL;waid=51902247905:+51 902 247 905\nitem1.X-ABLabel:𝐜𝐨𝐝𝐞𝐱\nX-WA-BIZ-DESCRIPTION:ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐜𝐨𝐝𝐞𝐱\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '♰⍣𝑪𝒓𝒊𝒘𝒊𝒍𝒐𝒑࿐⛦', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
@@ -1554,7 +1554,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ✨ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del Bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: 'atencion', body: '𝗜 𝗕𝗟𝗢𝗢𝗗 𝗕𝗢𝗧', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: 'atencion', body: '𝐜𝐨𝐝𝐞𝐱', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 

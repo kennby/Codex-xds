@@ -20,12 +20,12 @@ global.owner = [
 global.suittag = [];
 global.prems = [];
 
-global.packname = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
-global.author = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
-global.wm = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
-global.titulowm = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
-global.titulowm2 = `𝗢𝗡𝗬𝗫`
-global.igfg = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
+global.packname = '𝐜𝐨𝐝𝐞𝐱';
+global.author = '𝐜𝐨𝐝𝐞𝐱';
+global.wm = '𝐜𝐨𝐝𝐞𝐱';
+global.titulowm = '𝐜𝐨𝐝𝐞𝐱';
+global.titulowm2 = `𝐜𝐨𝐝𝐞𝐱`
+global.igfg = '𝐜𝐨𝐝𝐞𝐱';
 global.wait = '*pensando ...*';
 
 /*global.imgr = [imagen1 = fs.readFileSync('./media/img/Menu2.jpg'),
@@ -49,9 +49,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧`;
-global.gt = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
-global.mysticbot = '𝗙𝗔𝗠𝗜𝗟𝗬  𝗜 𝗕𝗟𝗢𝗢𝗗  𝗕𝗢𝗧';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐜𝐨𝐝𝐞𝐱`;
+global.gt = '𝐜𝐨𝐝𝐞𝐱';
+global.mysticbot = '𝐜𝐨𝐝𝐞𝐱';
 global.md = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v';
 global.mysticbot = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v';
 global.waitt = '* pensando ...*';

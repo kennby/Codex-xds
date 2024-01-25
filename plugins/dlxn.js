@@ -1,10 +1,10 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*⚠️ 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾 𝙴𝚂𝚃𝙰𝙽 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾𝚂 𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾, 𝚂𝙸 𝙴𝚂 𝙰𝙳𝙼𝙸𝙽 𝚈 𝙳𝙴𝚂𝙴𝙰 𝙰𝙲𝚃𝙸𝚅𝙰𝚁𝙻𝙾𝚂 𝚄𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #enable modohorny*';
-  if (!args[0]) throw `*título*`;
+  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐧𝐨 𝐩𝐞𝐫𝐦𝐢𝐭𝐢𝐝𝐨 𝐬𝐨𝐥𝐨 𝐥𝐨𝐬 𝐚𝐝𝐦𝐢𝐧𝐬 𝐩𝐮𝐞𝐝𝐞𝐧 𝐚𝐜𝐭𝐢𝐯𝐚𝐫𝐥𝐨 𝐜𝐨𝐧 .ENABLE MODOHORNY*';
+  if (!args[0]) throw `*𝐩𝐨𝐧𝐠𝐚 𝐮𝐧 𝐞𝐧𝐥𝐚𝐜𝐞 𝐯𝐚𝐥𝐢𝐝𝐨 𝐩𝐥𝐬: ${usedPrefix + command} https://www.xnxx.com/video-14lcwbe8/rubia_novia_follada_en_cuarto_de_bano*`;
   try {
-    await conn.reply(m.chat, '😐', m);
+    await conn.reply(m.chat, '𝐞𝐬𝐩𝐞𝐫𝐞 𝐮𝐧𝐨𝐬 𝐦𝐢𝐧𝐮𝐭𝐨𝐬\n\n𝐞𝐥 𝐭𝐢𝐞𝐦𝐩𝐨 𝐝𝐞 𝐞𝐧𝐯𝐢𝐨 𝐝𝐞𝐩𝐞𝐧𝐝𝐞 𝐚𝐥 𝐩𝐞𝐬𝐨 𝐝𝐞𝐥 𝐯𝐢𝐝𝐞𝐨', m);
     let xnxxLink = '';
     if (args[0].includes('xnxx')) {
       xnxxLink = args[0];
@@ -17,13 +17,13 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
             if (index < matchingItem.urls.length) {
               xnxxLink = matchingItem.urls[index];
             } else {
-              throw `*⚠️ ingrese un número ${matchingItem.urls.length}*`;
+              throw `*𝐧𝐨 𝐬𝐞 𝐞𝐧𝐜𝐨𝐧𝐭𝐫𝐨 1 𝐲 𝐞𝐥 ${matchingItem.urls.length}*`;
             }
           } else {
-            throw `*⚠️ 𝙳𝙴 𝙴𝚂𝚃𝙰 𝙵𝙾𝚁𝙼𝙰 (${usedPrefix + command} <numero>)*`;
+            throw `*𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐝𝐞 𝐞𝐬𝐭𝐚 𝐟𝐨𝐫𝐦𝐚 (${usedPrefix + command} <numero>), 𝐫𝐞𝐚𝐥𝐢𝐳𝐚 𝐥𝐚 𝐛𝐮𝐬𝐪𝐮𝐞𝐝𝐚 𝐝𝐞𝐥 𝐯𝐢𝐝𝐞𝐨 𝐜𝐨𝐧 𝐞𝐥 𝐜𝐦𝐝 ${usedPrefix}xnxxsearch <texto>*`;
           }
         } else {
-          throw `*⚠️ 𝙳𝙴 𝙴𝚂𝚃𝙰 𝙵𝙾𝚁𝙼𝙰 (${usedPrefix + command} <numero>)`;
+          throw `*𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐝𝐞 𝐞𝐬𝐭𝐚 𝐟𝐨𝐫𝐦𝐚 (${usedPrefix + command} <numero>), 𝐫𝐞𝐚𝐥𝐢𝐳𝐚 𝐥𝐚 𝐛𝐮𝐬𝐪𝐮𝐞𝐝𝐚 𝐝𝐞𝐥 𝐯𝐢𝐝𝐞𝐨 𝐜𝐨𝐧 𝐞𝐥 𝐜𝐦𝐝 ${usedPrefix}xnxxsearch <texto>*`;
         }
       }
     }
@@ -31,10 +31,10 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
     const json = await res.result.files;
     conn.sendMessage(m.chat, {document: {url: json.high}, mimetype: 'video/mp4', fileName: res.result.title}, {quoted: m});
   } catch {
-    throw '*⚠️ 𝙴𝚁𝚁𝙾r.';
+    throw '*𝐞𝐫𝐫𝐨𝐫*\n\n*- 𝐪𝐮𝐞 𝐬𝐞𝐚 𝐬𝐢𝐦𝐢𝐥𝐚𝐫 𝐚:*\n*◉ https://www.xnxx.com/video-14lcwbe8/rubia_novia_follada_en_cuarto_de_bano*';
   }
 };
-handler.command = /^(fixnx)$/i;
+handler.command = /^(xnxxdl)$/i;
 export default handler;
 
 async function xnxxdl(URL) {
@@ -60,4 +60,4 @@ async function xnxxdl(URL) {
       resolve({status: 200, result: {title, URL, duration, image, videoType, videoWidth, videoHeight, info, files}});
     }).catch((err) => reject({code: 503, status: false, result: err}));
   });
-}
+      }

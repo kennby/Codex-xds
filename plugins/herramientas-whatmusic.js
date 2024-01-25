@@ -10,7 +10,7 @@ const handler = async (m) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (q.msg || q).mimetype || '';
   if (/audio|video/.test(mime)) {
-    if ((q.msg || q).seconds > 20) return m.reply('⚠️\n\nEl archivo que carga es demasiado grande, le sugerimos que corte el archivo grande a un archivo más pequeño, 10-20 segundos Los datos de audio son suficientes para identificar');
+    if ((q.msg || q).seconds > 20) return m.reply('🙉\n\n𝐬𝐨𝐥𝐨 10 𝐚 20 𝐬𝐞𝐠𝐮𝐧𝐝𝐨𝐬 𝐩𝐥𝐬');
     const media = await q.download();
     const ext = mime.split('/')[1];
     fs.writeFileSync(`./tmp/${m.sender}.${ext}`, media);
@@ -19,17 +19,16 @@ const handler = async (m) => {
     if (code !== 0) throw msg;
     const {title, artists, album, genres, release_date} = res.metadata.music[0];
     const txt = `
-𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰
+𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎
 
-• 📌 𝚃𝙸𝚃𝚄𝙻𝙾: ${title}
-• 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃𝙰: ${artists !== undefined ? artists.map((v) => v.name).join(', ') : 'No encontrado'}
-• 💾 𝙰𝙻𝙱𝚄𝙼: ${album.name || 'No encontrado'}
-• 🌐 𝙶𝙴𝙽𝙴𝚁𝙾: ${genres !== undefined ? genres.map((v) => v.name).join(', ') : 'No encontrado'}
-• 📆 𝙵𝙴𝙲𝙷𝙰 𝙳𝙴 𝙻𝙰𝙽𝚉𝙰𝙼𝙸𝙴𝙽𝚃𝙾: ${release_date || 'No encontrado'}
+𝐭𝐢𝐭𝐮𝐥𝐨 ${title}
+𝐚𝐫𝐭𝐢𝐬𝐭𝐚 ${artists !== undefined ? artists.map((v) => v.name).join(', ') : 'No encontrado'}
+𝐚𝐥𝐛𝐮𝐧 ${album.name || 'No encontrado'}
+𝐟𝐞𝐜𝐡𝐚 𝐝𝐞 𝐥𝐚𝐧𝐳𝐚𝐦𝐢𝐞𝐧𝐭𝐨 ${release_date || 'No encontrado'}
 `.trim();
     fs.unlinkSync(`./tmp/${m.sender}.${ext}`);
     m.reply(txt);
-  } else throw '*⚠️ 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾*';
+  } else throw '*𝐫𝐞𝐬𝐩𝐨𝐧𝐝𝐞 𝐚 𝐮𝐧 𝐚𝐮𝐝𝐢𝐨/𝐯𝐢𝐝𝐞𝐨*';
 };
 handler.command = /^quemusica|quemusicaes|whatmusic$/i;
 export default handler;

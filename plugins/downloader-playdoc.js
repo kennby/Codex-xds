@@ -27,11 +27,11 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
        txt += `│📅 *Publicado ∙* ${vid.ago}\n`
        txt += `│⛓ *Url ∙* ${'https://youtu.be/' + vid.videoId}\n`
        txt += `╰──────────✰\n\n`
-       txt += `*↻ Espera @${m.sender.split`@`[0]}, soy lento. . .*`
+       txt += `*↻ Espera @${m.sender.split`@`[0]}, soy lentᴏ. . .*`
 let buttonMessage= {
-'document': { url: `https://github.com/DanielDiod/DokiBot` },
+'document': { url: `https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v` },
 'mimetype': `application/pdf`,
-'fileName': `✰ | YᴏᴜTᴜʙᴇ Pʟᴀʏ 📥`,
+'fileName': `ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏ`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
@@ -109,9 +109,9 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
        txt += `╰──────────✰\n\n`
        txt += `*↻ Espera @${m.sender.split`@`[0]}, soy lento. . .*`
 let buttonMessage= {
-'document': { url: `https://github.com/DanielDiod/DokiBot` },
+'document': { url: `https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v` },
 'mimetype': `application/pdf`,
-'fileName': `✰ | YᴏᴜTᴜʙᴇ Pʟᴀʏ 📥`,
+'fileName': `ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏ`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
@@ -171,9 +171,9 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas 
        txt += `╰──────────✰\n\n`
        txt += `*↻ Espera @${m.sender.split`@`[0]}, soy lento. . .*`
 let buttonMessage= {
-'document': { url: `https://github.com/DanielDiod/DokiBot` },
+'document': { url: `https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v` },
 'mimetype': `application/pdf`,
-'fileName': `✰ | YᴏᴜTᴜʙᴇ Pʟᴀʏ 📥`,
+'fileName': `ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏ`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
@@ -251,9 +251,9 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
        txt += `╰──────────✰\n\n`
        txt += `*↻ Espera @${m.sender.split`@`[0]}, soy lento. . .*`
 let buttonMessage= {
-'document': { url: `https://github.com/DanielDiod/DokiBot` },
+'document': { url: `https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v` },
 'mimetype': `application/pdf`,
-'fileName': `✰ | YᴏᴜTᴜʙᴇ Pʟᴀʏ 📥`,
+'fileName': `ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏ`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {

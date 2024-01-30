@@ -1542,16 +1542,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ✨ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
-    owner: '*[ ✨ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
-    mods: '*[ ✨ ] Este comando solo puede ser utilizado por moderadores y el/la propietario(a) (owner) del Bot.*',
-    premium: '*[ ✨ ] Este comando solo puede ser utilizado por usarios premium y el/la propietario(a) (owner) del Bot.*',
-    group: '*[ ✨ ] Este comando solo puede ser utilizado en grupos.*',
-    private: '*[ ✨ ] Este comando solo puede ser utilizado en el chat privado del Bot.*',
-    admin: '*[ ✨ ] Este comando solo puede ser usado por admins del grupo.*',
-    botAdmin: '*[ ✨ ] Para poder usar este comando es necesario que yo sea admin.*',
-    unreg: '*[ 🛑 Hey!! Alto, no estas registrado 🛑 ]*\n\n*—◉ Para poder usar este comando debes registrarte, usa el comando:*\n*➣ /reg nombre.edad*',
-    restrict: '*[ ✨ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del Bot.*',
+    rowner: 'Este comando solo puede ser utilizado por el *Creador del bot*',
+        owner: 'Este comando solo puede ser utilizado por el *Dueño del Bot*',
+        mods: 'Esta función es solo para  *moderadores* del Bot',
+        premium: 'Este comando es solo para miembros *Premium*',
+        group: '¡Este comando solo se puede usar en grupos!',
+        private: 'Este comando solo se puede usar en el chat *privado del Bot*',
+        admin: 'Este comando es solo para *Admins* del grupo',
+        botAdmin: '¡Para usar este comando debo ser *Administrador!*',
+        unreg: 'Regístrese para usar esta función  Escribiendo:\n\n/reg nombre.edad\n\nEjemplo: /registrarme kenn.14',
+        restrict: 'Esta característica está *deshabilitada*'
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: 'ᴀᴛᴇɴᴄɪᴏɴ', body: '𝐜𝐨𝐝𝐞𝐱', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'}}}}, aa);
